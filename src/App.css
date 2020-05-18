@@ -1,0 +1,221 @@
+.App {
+
+}
+
+body {
+  height: auto;
+  min-width: 320px;
+  font-size: 16px;
+}
+body .my_btn {
+  background-color: #0aaee4;
+  border-radius: 5px;
+  color: #fff;
+}
+
+header {
+  height: 600px;
+}
+
+header .my_nav {
+  position: absolute;
+  z-index: 999;
+  padding: 0 5% 0 5%;
+  height: 100px;
+  width: 100%;
+}
+header .my_nav .navbar-toggler {
+  background-color: #0aaee4;
+  border-color: brown;
+}
+header .my_nav .my_nbr {
+  font-size: 28px;
+  font-weight: bold;
+}
+header .my_nav a {
+  color: white;
+  font-size: 20px;
+}
+header .my_nav .btn img {
+  height: 20px;
+  width: 20px;
+}
+
+header .my_carousel {
+  position: absolute;
+  top: 0;
+}
+header .carousel-indicators .active {
+  background-color: #0aaee4;
+}
+header .carousel-inner img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+  width: 100%;
+  display: block;
+}
+header .carousel-caption {
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  word-spacing: 10px;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+header .carousel-caption .text {
+  padding-left: 10%;
+}
+header .carousel-caption h1 {
+  text-transform: uppercase;
+}
+header .carousel-caption img {
+  height: 20px;
+  width: 200px;
+}
+header .btn-group {
+  padding-right: 5%;
+}
+header .my_carousel .btn-group .btn {
+  border-radius: 5px !important;
+  color: white;
+  margin-left: 10px;
+}
+header .my_carousel .btn-group .btn-outline-light:hover {
+  color: black;
+}
+header .btn-group .btn img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+/* MAIN HOME*/
+main .main {
+  padding: 50px 5% 0 5%;
+  color: #0aaee4;
+}
+main .main .nav-tabs{
+border-bottom: 1px solid #b2b3b4;
+}
+main .main .nav-tabs .nav-link.active {
+  font-weight: bold;
+  color: #0aaee4;
+  border: 0px;
+  border-bottom: 2px solid #0aaee4;
+}
+main .main .nav-tabs .nav-link:focus {
+  font-weight: bold;
+  color: #0aaee4;
+  border: 0px;
+  border-bottom: 2px solid #0aaee4;
+}
+main .main .nav-tabs .dropdown-item:hover {
+  font-weight: bold;
+  background-color: #0aaee4;
+}
+
+main .main .post-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  margin-top: 25px;
+  width: 100%;
+  height: 300px;
+}
+main .main .films .description {
+  background-color: white;
+  width: 100%;
+  min-height: 130px;
+  margin-left: 0;
+  font-size: 16px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  text-align: left;
+}
+main .main .films .description .text {
+  padding: 5% 0 0 5%;
+}
+main .main .films h5 {
+  color: black;
+  text-transform: uppercase;
+}
+main .main .films .description .rat {
+  margin-top: 5%;
+  width: 40px;
+  height: 30px;
+  border: #0aaee4 solid 2px;
+  border-radius: 7px;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bold;
+}
+main .main .info .dark {
+  width: 100%;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.7);
+}
+main .main .info h3 {
+  color: #fff;
+  padding: 7% 25% 1% 25%;
+}
+/*FOOTER*/
+footer{
+  background: #fff;
+  height: 150px;
+  color: #0aaee4;
+  margin-top: 50px;
+}
+footer .footer{
+  padding: 30px 5% 0 5%;
+}
+footer .footer a{
+  color: #797a7a;
+}
+footer .footer .btn1{
+  color: white;
+  font-size: large;
+}
+footer .footer .f_nav{
+  padding-left: 0;
+  padding-right: 0;
+  text-align: left;
+}
+footer .footer .logo{
+  text-transform: uppercase;
+  text-align: center;
+}
+footer .footer .logo span{
+  font-size: 12px;
+  color: #a7aaab;
+}
+footer .footer .icons{
+  text-align: right;
+  padding-top: 10px;
+}
+footer .footer .icons .icon{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  width: 100%;
+  height: 25px;
+  margin-left: 10px;
+}
+/*MAIN INFO*/
+main .info {
+  padding: 50px 5% 0 5%;
+}
+main .info p{
+  font-size: 22px;
+  color: #0aaee4;
+}
+main .info h5{
+  color: #797a7a;
+}
+main .info .description{
+  border-top: #797a7a 1px dashed;
+}
+main .info .description p{
+  color: #000;
+}
